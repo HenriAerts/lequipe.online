@@ -24,6 +24,30 @@ const Projects = () => {
           centeredSlides={true}
           spaceBetween={45}
           className='w-full pt-10 h-full'>
+              <SwiperSlide className='max-w-[1200px] flex justify-center items-center h-full pt-3'>
+              <ProjectContainer
+              titel1="Praxis"
+              titel2="Beck"
+              logo='/Untitled9.jpg' 
+              description=' Ihrer vertrauenswürdigen Anlaufstelle für ganzheitliche Gesundheitsversorgung in Mainz. Unser engagiertes Team von Fachärzten steht Ihnen zur Seite, um Ihre Gesundheit optimal zu betreuen.' 
+              services1="Webdesign"
+              services2="Konzeption"
+              services3="React Development"
+              link='https://praxisbeck.lequipe.online/'
+              />
+            </SwiperSlide>
+
+            <SwiperSlide className='max-w-[1200px] flex justify-center items-center h-full pt-3'>
+              <ProjectContainer
+              titel1="JA "
+              titel2="Drum School"
+              logo='/Logo Affinity.png' 
+              description='Jem bringt Dich dazu durch individuell- angepasste Pläne und Übungsroutinen Deinen langersehnten Traum step-by-step wahr werden zu lassen – das bei JA Drum School!' 
+              services1="Wordpress Development"
+              services2="Konzeption"
+              link='https://jematai.com/'
+              />
+            </SwiperSlide>
 
             <SwiperSlide className='max-w-[1200px] flex justify-center items-center h-full pt-3'>
               <ProjectContainer
